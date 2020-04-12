@@ -1,0 +1,55 @@
+h1 {
+    color: orange;
+    font-family: "Times New Roman", serif;
+  }
+
+  /* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px black;
+} 
+
+.content {
+  left: 50%;
+  display: flex;
+}
+
+.content img {
+  margin-right: 10px;
+  display: block;
+  border-radius: 10px;
+}
+
+.content h3,
+.content p {margin: 0;}
+
+nav ul {
+  background-color:white;
+  border-style: solid;
+  border-color: orange;
+  border-width: 2px;
+  padding: 10px;
+}
+
+nav ul li {
+  left: 50%;
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: orange;
+}

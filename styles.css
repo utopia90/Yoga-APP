@@ -1,0 +1,114 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+
+h1 {
+    color: rgb(238, 160, 14);
+    font-size: 40px;
+  }
+
+  /* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px black;
+} 
+
+.content {
+  left: 50%;
+  display: flex;
+}
+
+.content img {
+  margin-right: 10px;
+  display: block;
+  border-radius: 10px;
+}
+
+.content h3,
+.content p {margin: 0;}
+
+nav ul {
+  background-color:white;
+  border-style: solid;
+  border-color: rgb(238, 160, 14);
+  border-width: 2px;
+  padding: 10px;
+}
+
+nav ul li {
+  left: 50%;
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.hide {
+  display:none;
+}
+#posture-description {
+ align-items:center;
+ margin-left: 25px;
+}
+#mainImage, #image2, #image3 {
+  align-items: center;
+  margin-left: 80px;
+  width: 900px;
+  height: 700px;
+}
+
+#posture, #description {
+  margin-top: 80px;
+  color: rgb(41, 121, 121);
+}
+#sessiontitle{
+font-size: 40px;
+margin-left: 50px;
+}
+#postureDiv, #descriptionDiv, #posture2, #posture3, #description3, #description2 {
+font-size: 15px;
+align-content: center;
+}
+#mainmenu {
+  background-color: rgb(238, 160, 14);
+  padding: 5px;
+  height: fit-content;
+  text-align: left;
+}
+
+li a {
+  color:  rgb(255, 255, 255);
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: -10px;
+}
+li:hover {
+background-color: rgb(41, 121, 121);
+}
+#border {
+  color:rgb(41, 121, 121);
+}
+.session {
+  font-size: 50px;
+}
+#time {
+  font-size: 10px;
+  margin-left: 300px;
+  margin-top: -20px;
+}
